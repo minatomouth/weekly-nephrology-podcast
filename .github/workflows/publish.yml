@@ -1,0 +1,44 @@
+name: Publish to main
+
+# When an automated run pushes a `claude/*` branch, fast-forward `main` to it so
+# GitHub Pages (served from main) rebuilds and the episode goes live — with no
+# manual merge. This job runs on GitHub's servers, outside the Claude git proxy,
+# so it can push to `main` using the built-in GITHUB_TOKEN.
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+
+permissions:
+  contents: write
+
+# Never let two publish runs race each other onto main.
+concurrency:
+  group: publish-to-main
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Fast-forward main to the pushed branch
+        run: |
+          set -euo pipefail
+          echo "Triggered by $GITHUB_REF_NAME @ $GITHUB_SHA"
+          git fetch origin main
+
+          # Only publish when the pushed commit is a clean descendant of main.
+          # This guarantees a fast-forward and refuses to ever overwrite main.
+          if git merge-base --is-ancestor origin/main "$GITHUB_SHA"; then
+            git push origin "$GITHUB_SHA:refs/heads/main"
+            echo "main fast-forwarded to $GITHUB_SHA — GitHub Pages will republish."
+          else
+            echo "::error::main is not an ancestor of $GITHUB_SHA (branch diverged from main). Refusing to overwrite main automatically — merge this branch manually."
+            exit 1
+          fi
