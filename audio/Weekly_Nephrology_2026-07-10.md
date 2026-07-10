@@ -1,1 +1,3 @@
-【Weekly Summary】腎移植／ロルンドロスタット・治療抵抗性高血圧／ループス腎炎／SGLT2阻害薬・高齢CKD／IgA血管炎性腎炎・AKI
+【Weekly Summary】腎移植後FSGS再発予防のメタ解析／治療抵抗性高血圧に対するロルンドロスタットのメタ解析
+ループス腎炎のEULAR systematic review／高齢CKDに対するSGLT2阻害薬のメタ解析
+小児IgA血管炎性腎炎（IgAVN）に合併するAKI・AKD

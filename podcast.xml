@@ -5,7 +5,7 @@
     <link>https://weekly-nephrology.github.io/weekly-nephrology-podcast</link>
     <description>AIが生成する腎臓内科の週次文献レビューです。最新論文を日本語と英語のバイリンガル会話で紹介します。（教育・英語学習目的）。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 10 Jul 2026 13:10:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Jul 2026 13:20:34 +0000</lastBuildDate>
     <atom:link href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/podcast.xml" rel="self" type="application/rss+xml"/>
     <itunes:image href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/cover.png"/>
     <image><url>https://weekly-nephrology.github.io/weekly-nephrology-podcast/cover.png</url><title>Weekly Nephrology AI</title><link>https://weekly-nephrology.github.io/weekly-nephrology-podcast</link></image>
@@ -14,11 +14,13 @@
     <item>
       <title>Weekly Nephrology AI — Weekly Summary 2026-07-10</title>
       <link>https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-10.html</link>
-      <description>【Weekly Summary】腎移植／ロルンドロスタット・治療抵抗性高血圧／ループス腎炎／SGLT2阻害薬・高齢CKD／IgA血管炎性腎炎・AKI
+      <description>【Weekly Summary】腎移植後FSGS再発予防のメタ解析／治療抵抗性高血圧に対するロルンドロスタットのメタ解析
+ループス腎炎のEULAR systematic review／高齢CKDに対するSGLT2阻害薬のメタ解析
+小児IgA血管炎性腎炎（IgAVN）に合併するAKI・AKD
 
 ▼ 原稿スクリプト（英語表現の確認に）:
 https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-10.html</description>
-      <content:encoded><![CDATA[<p>【Weekly Summary】腎移植／ロルンドロスタット・治療抵抗性高血圧／ループス腎炎／SGLT2阻害薬・高齢CKD／IgA血管炎性腎炎・AKI</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-10.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>【Weekly Summary】腎移植後FSGS再発予防のメタ解析／治療抵抗性高血圧に対するロルンドロスタットのメタ解析</p><p>ループス腎炎のEULAR systematic review／高齢CKDに対するSGLT2阻害薬のメタ解析</p><p>小児IgA血管炎性腎炎（IgAVN）に合併するAKI・AKD</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-10.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
       <enclosure url="https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Weekly_Nephrology_2026-07-10.mp3" length="10012608" type="audio/mpeg"/>
       <guid isPermaLink="true">https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Weekly_Nephrology_2026-07-10.mp3</guid>
       <pubDate>Fri, 10 Jul 2026 07:00:00 +0900</pubDate>
@@ -27,13 +29,13 @@ https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Neph
     <item>
       <title>Weekly Nephrology AI — Deep Read 2026-07-09</title>
       <link>https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_DeepRead_2026-07-09.html</link>
-      <description>2026-07-09配信【Deep Read・深掘り】。糖尿病性腎臓病（DKD）の糸球体における内皮細胞の増殖を制御するMEF2C転写因子ネットワーク（Kidney International）を、full text（Methods/Results/Limitations）まで踏み込んで約20分で読み解きます。
-ヒト腎検体132（96人分）を単核RNA・ATAC・4種の空間トランスクリプトミクスで解析。糖尿病糸球体に増殖型内皮細胞（prEC）ニッチを同定し、抗血管新生に働くSEMA6A–PLXNA2を制御するMEF2C/MEF2A/TRPS1ネットワークを見出しました。MEF2C活性は結節性メサンギウム硬化・尿蛋白量（Spearman ρ=0.73）と関連し、SGLT2阻害薬治療でその分子シグネチャが健常方向へ戻る関連が観察されています。
-観察・in silico中心の機序研究として因果は慎重に扱いつつ、SGLT2阻害薬の腎保護作用の一端を組織レベルで覗きます。冒頭にERA 2026（グラスゴー）のFIND-CKD／ALIGN試験の話題を添えた、教育・英語学習向けバイリンガル解説です。
+      <description>【Deep Read】糖尿病性腎臓病における糸球体内皮細胞のMEF2Cネットワーク
+単核RNA・ATACと空間トランスクリプトミクスをfull textで検討
+蛋白尿・メサンギウム硬化との関連とSGLT2阻害薬治療後の変化
 
 ▼ 原稿スクリプト（英語表現の確認に）:
 https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_DeepRead_2026-07-09.html</description>
-      <content:encoded><![CDATA[<p>2026-07-09配信【Deep Read・深掘り】。糖尿病性腎臓病（DKD）の糸球体における内皮細胞の増殖を制御するMEF2C転写因子ネットワーク（Kidney International）を、full text（Methods/Results/Limitations）まで踏み込んで約20分で読み解きます。</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_DeepRead_2026-07-09.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>【Deep Read】糖尿病性腎臓病における糸球体内皮細胞のMEF2Cネットワーク</p><p>単核RNA・ATACと空間トランスクリプトミクスをfull textで検討</p><p>蛋白尿・メサンギウム硬化との関連とSGLT2阻害薬治療後の変化</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_DeepRead_2026-07-09.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
       <enclosure url="https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Nephrology_DeepRead_2026-07-09.mp3" length="7364736" type="audio/mpeg"/>
       <guid isPermaLink="true">https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Nephrology_DeepRead_2026-07-09.mp3</guid>
       <pubDate>Thu, 09 Jul 2026 07:00:00 +0900</pubDate>
@@ -42,13 +44,13 @@ https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_
     <item>
       <title>Weekly Nephrology AI — Deep Read 2026-07-07</title>
       <link>https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_DeepRead_2026-07-07.html</link>
-      <description>2026-07-07配信【Deep Read・深掘り】。NELL-1関連膜性腎症の臨床病理学的研究——中国人単施設コホート68例（Kidney Int Rep）を、full text（Methods/Results/Limitations）まで踏み込んで約20分で読み解きます。
-NELL-1はPLA2R陰性・THSD7A陰性の膜性腎症で2番目に多い抗原。若年女性と高齢男性という2つの顔を持ち、悪性腫瘍（全例が60歳以上男性・多くが肺癌）を除けば96.1%が寛解・自然寛解33.3%と良好な一方、癌合併例は1年以内死亡57.1%。診断時の悪性腫瘍スクリーニング、とくに高齢男性での重要性を論じます。
-冒頭にERA 2026（グラスゴー）のTURING試験やWCN 2026の話題を添えた、教育・英語学習向けバイリンガル解説です。
+      <description>【Deep Read】NELL-1関連膜性腎症の臨床病理
+中国人単施設コホート68例をfull textで検討
+年齢・性別・悪性腫瘍合併と予後の特徴
 
 ▼ 原稿スクリプト（英語表現の確認に）:
 https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_DeepRead_2026-07-07.html</description>
-      <content:encoded><![CDATA[<p>2026-07-07配信【Deep Read・深掘り】。NELL-1関連膜性腎症の臨床病理学的研究——中国人単施設コホート68例（Kidney Int Rep）を、full text（Methods/Results/Limitations）まで踏み込んで約20分で読み解きます。</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_DeepRead_2026-07-07.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>【Deep Read】NELL-1関連膜性腎症の臨床病理</p><p>中国人単施設コホート68例をfull textで検討</p><p>年齢・性別・悪性腫瘍合併と予後の特徴</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_DeepRead_2026-07-07.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
       <enclosure url="https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Nephrology_DeepRead_2026-07-07.mp3" length="10377984" type="audio/mpeg"/>
       <guid isPermaLink="true">https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Nephrology_DeepRead_2026-07-07.mp3</guid>
       <pubDate>Tue, 07 Jul 2026 07:00:00 +0900</pubDate>
@@ -57,13 +59,13 @@ https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_
     <item>
       <title>Weekly Nephrology AI — Case Reports 2026-07-07</title>
       <link>https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_CaseReports_2026-07-07.html</link>
-      <description>2026-07-07配信【Case Reports・症例カンファ】。腎臓内科のケースレポートを、抄録で3症例紹介＋1症例をfull textまで深読みするバイリンガル回（教育・英語学習目的）。症例報告はn=1であり一般化はできません。
-深読み症例は、抗GBM抗体とMPO-ANCAの「二重陽性」を呈した82歳女性——壊死性半月体形成性糸球体腎炎の腎生検・剖検所見を読み解き、6か月後に判明した転移性子宮体癌との傍腫瘍症候群としての関連を考察します（Kidney Medicine）。
-抄録紹介は、①PFAPA症候群＋IgA腎症に早期扁桃摘出のみで二重寛解を得た小児例、②血清学的にすべて陰性のまま劇症化した血清陰性抗GBM病、③形質細胞異常症を背景としたHTRA1膜性腎症の3例です。
+      <description>【Case Reports】抗GBM抗体・MPO-ANCA二重陽性の半月体形成性糸球体腎炎を深読み
+PFAPA症候群＋IgA腎症／血清陰性抗GBM病
+形質細胞異常症を背景としたHTRA1膜性腎症
 
 ▼ 原稿スクリプト（英語表現の確認に）:
 https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_CaseReports_2026-07-07.html</description>
-      <content:encoded><![CDATA[<p>2026-07-07配信【Case Reports・症例カンファ】。腎臓内科のケースレポートを、抄録で3症例紹介＋1症例をfull textまで深読みするバイリンガル回（教育・英語学習目的）。症例報告はn=1であり一般化はできません。</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_CaseReports_2026-07-07.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>【Case Reports】抗GBM抗体・MPO-ANCA二重陽性の半月体形成性糸球体腎炎を深読み</p><p>PFAPA症候群＋IgA腎症／血清陰性抗GBM病</p><p>形質細胞異常症を背景としたHTRA1膜性腎症</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_CaseReports_2026-07-07.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
       <enclosure url="https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Nephrology_CaseReports_2026-07-07.mp3" length="11388864" type="audio/mpeg"/>
       <guid isPermaLink="true">https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Nephrology_CaseReports_2026-07-07.mp3</guid>
       <pubDate>Tue, 07 Jul 2026 07:00:00 +0900</pubDate>
@@ -72,13 +74,13 @@ https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_
     <item>
       <title>Weekly Nephrology AI — Weekly Summary 2026-07-06</title>
       <link>https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-06.html</link>
-      <description>2026-07-06配信。今週の主要論文: 小児IgA血管炎腎炎における尿中可溶性CD163と管内増殖・線維素様壊死の関連（Pediatr Nephrol）、学校検尿で早期発見されIgA沈着を伴う小児ANCA関連腎炎の症例（CEN Case Rep）。
-Delphi法による保存期CKD・透析・移植のエビデンス優先課題の特定（Kidney Int Rep）、CKD進行評価のための多パラメトリック腎MRI前向きコホートAFiRMのベースライン報告（Kidney Int Rep）。
-さらに、小児C3腎症・免疫複合体性MPGNの自然経過（CJASN）。冒頭にERA 2026（グラスゴー）やIgA腎症の新規生物学的製剤の話題を添えた、抄録ベースの教育・英語学習向けバイリンガル解説です。
+      <description>【Weekly Summary】小児IgAVNの尿中sCD163／学校検尿で見つかった小児ANCA関連腎炎
+CKD・透析・移植領域の研究優先課題／CKD進行評価の多パラメトリック腎MRI
+小児C3腎症・免疫複合体性MPGNの自然経過
 
 ▼ 原稿スクリプト（英語表現の確認に）:
 https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-06.html</description>
-      <content:encoded><![CDATA[<p>2026-07-06配信。今週の主要論文: 小児IgA血管炎腎炎における尿中可溶性CD163と管内増殖・線維素様壊死の関連（Pediatr Nephrol）、学校検尿で早期発見されIgA沈着を伴う小児ANCA関連腎炎の症例（CEN Case Rep）。</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-06.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>【Weekly Summary】小児IgAVNの尿中sCD163／学校検尿で見つかった小児ANCA関連腎炎</p><p>CKD・透析・移植領域の研究優先課題／CKD進行評価の多パラメトリック腎MRI</p><p>小児C3腎症・免疫複合体性MPGNの自然経過</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-06.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
       <enclosure url="https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Weekly_Nephrology_2026-07-06.mp3" length="5545344" type="audio/mpeg"/>
       <guid isPermaLink="true">https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Weekly_Nephrology_2026-07-06.mp3</guid>
       <pubDate>Mon, 06 Jul 2026 07:00:00 +0900</pubDate>
@@ -87,13 +89,13 @@ https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Neph
     <item>
       <title>Weekly Nephrology AI — Weekly Summary 2026-07-05</title>
       <link>https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-05.html</link>
-      <description>2026-07-05配信。今週の主要論文: 免疫介在性糸球体腎炎に対する抗炎症性バイオ製剤の総説（J Inflamm Res）、慢性人工関節感染を背景とした感染関連IgA血管炎の症例（Cureus）。
-高浸透圧高血糖状態（HHS）の系統的レビュー・メタ解析（63,935例, BMJ Open Diab Res Care）、PGNMIDに対するBCD療法 vs リツキシマブのパイロットRCT（Nephrol Dial Transplant）。
-さらに、自己免疫性糸球体疾患における抗リツキシマブ抗体の頻度（Nephrol Dial Transplant）。抄録ベースの教育・英語学習向けバイリンガル解説です。
+      <description>【Weekly Summary】免疫介在性糸球体腎炎に対する生物学的製剤／感染関連IgA血管炎
+高浸透圧高血糖状態（HHS）のメタ解析／PGNMIDに対するBCD療法 vs リツキシマブのpilot RCT
+自己免疫性糸球体疾患における抗リツキシマブ抗体
 
 ▼ 原稿スクリプト（英語表現の確認に）:
 https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-05.html</description>
-      <content:encoded><![CDATA[<p>2026-07-05配信。今週の主要論文: 免疫介在性糸球体腎炎に対する抗炎症性バイオ製剤の総説（J Inflamm Res）、慢性人工関節感染を背景とした感染関連IgA血管炎の症例（Cureus）。</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-05.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<p>【Weekly Summary】免疫介在性糸球体腎炎に対する生物学的製剤／感染関連IgA血管炎</p><p>高浸透圧高血糖状態（HHS）のメタ解析／PGNMIDに対するBCD療法 vs リツキシマブのpilot RCT</p><p>自己免疫性糸球体疾患における抗リツキシマブ抗体</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-05.html">▶ 原稿スクリプトを読む</a></p>]]></content:encoded>
       <enclosure url="https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Weekly_Nephrology_2026-07-05.mp3" length="7141485" type="audio/mpeg"/>
       <guid isPermaLink="true">https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Weekly_Nephrology_2026-07-05.mp3</guid>
       <pubDate>Sun, 05 Jul 2026 07:00:00 +0900</pubDate>
