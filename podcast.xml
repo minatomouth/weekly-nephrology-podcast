@@ -6,12 +6,28 @@
     <description>An AI-generated educational podcast reviewing recent nephrology research in clear English.</description>
     <copyright>© 2026 Weekly Nephrology AI. All rights reserved.</copyright>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 23:16:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 01:19:41 +0000</lastBuildDate>
     <atom:link href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/podcast.xml" rel="self" type="application/rss+xml"/>
     <itunes:image href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/cover.png"/>
     <image><url>https://weekly-nephrology.github.io/weekly-nephrology-podcast/cover.png</url><title>Weekly Nephrology AI</title><link>https://weekly-nephrology.github.io/weekly-nephrology-podcast</link></image>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Health &amp; Fitness"><itunes:category text="Medicine"/></itunes:category>
+    <item>
+      <title>Weekly Nephrology AI — Weekly Summary 2026-07-20</title>
+      <link>https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-20.html</link>
+      <description>[Weekly Summary] Abstract-based review of five recent clinical nephrology studies.
+Atrasentan phase 3 RCT in IgA nephropathy; finerenone RCT in non-diabetic CKD.
+Kidney biopsy prognosis in severe ANCA vasculitis; postpartum kidney risk after preeclampsia.
+Crossover RCT of dapagliflozin in inactive lupus nephritis.
+
+Read the transcript:
+https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-20.html</description>
+      <content:encoded><![CDATA[<p>[Weekly Summary] Abstract-based review of five recent clinical nephrology studies.</p><p>Atrasentan phase 3 RCT in IgA nephropathy; finerenone RCT in non-diabetic CKD.</p><p>Kidney biopsy prognosis in severe ANCA vasculitis; postpartum kidney risk after preeclampsia.</p><p>Crossover RCT of dapagliflozin in inactive lupus nephritis.</p><p><a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Weekly_Nephrology_2026-07-20.html">Read the transcript</a></p>]]></content:encoded>
+      <enclosure url="https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Weekly_Nephrology_2026-07-20.mp3" length="7373568" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Weekly_Nephrology_2026-07-20.mp3</guid>
+      <pubDate>Mon, 20 Jul 2026 07:00:00 +0900</pubDate>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Weekly Nephrology AI — Case Reports 2026-07-18</title>
       <link>https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_CaseReports_2026-07-18.html</link>
