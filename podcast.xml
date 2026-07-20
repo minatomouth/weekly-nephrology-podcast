@@ -6,10 +6,10 @@
     <description>An AI-generated educational podcast reviewing recent nephrology research in clear English.</description>
     <copyright>© 2026 Weekly Nephrology AI. All rights reserved.</copyright>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2026 01:19:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Jul 2026 12:36:07 +0000</lastBuildDate>
     <atom:link href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/podcast.xml" rel="self" type="application/rss+xml"/>
-    <itunes:image href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/cover.png"/>
-    <image><url>https://weekly-nephrology.github.io/weekly-nephrology-podcast/cover.png</url><title>Weekly Nephrology AI</title><link>https://weekly-nephrology.github.io/weekly-nephrology-podcast</link></image>
+    <itunes:image href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/podcast_cover_0720.png"/>
+    <image><url>https://weekly-nephrology.github.io/weekly-nephrology-podcast/podcast_cover_0720.png</url><title>Weekly Nephrology AI</title><link>https://weekly-nephrology.github.io/weekly-nephrology-podcast</link></image>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Health &amp; Fitness"><itunes:category text="Medicine"/></itunes:category>
     <item>
