@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="robots" content="noindex"/>
+<meta name="description" content="Sparsentan vs irbesartan in pediatric FSGS (ages 8 to under 18). A post hoc exploratory subgroup of the phase 3 DUPLEX randomized active-controlled trial. We walk through the design, proteinuria and kidney endpoints, and why the small…"/>
+<meta name="theme-color" content="#33452f"/>
+<meta property="og:type" content="article"/>
+<meta property="og:site_name" content="Weekly Nephrology AI"/>
+<meta property="og:title" content="Weekly Nephrology AI 2026-07-23 — Transcript"/>
+<meta property="og:description" content="Sparsentan vs irbesartan in pediatric FSGS (ages 8 to under 18). A post hoc exploratory subgroup of the phase 3 DUPLEX randomized active-controlled trial. We walk through the design, proteinuria and kidney endpoints, and why the small…"/>
+<meta property="og:url" content="https://weekly-nephrology.github.io/weekly-nephrology-podcast/script/Nephrology_DeepRead_2026-07-23.html"/>
+<meta property="og:image" content="https://weekly-nephrology.github.io/weekly-nephrology-podcast/podcast_cover_0720.png"/>
+<meta property="og:image:alt" content="Weekly Nephrology AI cover art"/>
+<meta name="twitter:image" content="https://weekly-nephrology.github.io/weekly-nephrology-podcast/podcast_cover_0720.png"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Weekly Nephrology AI 2026-07-23 — Transcript"/>
+<meta name="twitter:description" content="Sparsentan vs irbesartan in pediatric FSGS (ages 8 to under 18). A post hoc exploratory subgroup of the phase 3 DUPLEX randomized active-controlled trial. We walk through the design, proteinuria and kidney endpoints, and why the small…"/>
+<title>Weekly Nephrology AI 2026-07-23 — Transcript</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"/>
+<style>
+  :root {
+    --accent:#a97f2f; --accent-deep:#7d5c1e;
+    --bg:#f5f1e3; --card:#fdfbf2; --ink:#26301f; --sub:#6f7863;
+    --line:rgba(38,48,31,.1); --bubble-b:#ecf0dd;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:#161b12; --card:#20271a; --ink:#ece7d4; --sub:#a4ac93;
+      --line:rgba(236,231,212,.1); --bubble-b:#2a3321;
+    }
+  }
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Avenir Next",-apple-system,
+      system-ui,sans-serif;
+    line-height:1.85; font-size:15.5px;
+    -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:720px; margin:0 auto; padding:0 20px; }
+
+  header { color:#f3ebd2; padding:44px 0 34px; position:relative; overflow:hidden;
+    background:
+      radial-gradient(120% 160% at 85% -20%, #a97f2f 0%, transparent 55%),
+      linear-gradient(150deg,#2c3a28 20%, #7d5c1e 130%); }
+  .badge { display:inline-block; font-size:.72rem; font-weight:700;
+    letter-spacing:.14em; text-transform:uppercase; color:#f3ebd2;
+    background:rgba(243,235,210,.14); border:1px solid rgba(243,235,210,.3);
+    padding:4px 12px; border-radius:999px; margin-bottom:14px;
+    backdrop-filter:blur(4px); }
+  h1 { margin:0 0 4px; font-size:2.15rem; font-weight:400;
+    letter-spacing:.005em; line-height:1.15;
+    font-family:"DM Serif Display",Georgia,"Times New Roman","Hiragino Mincho ProN",
+      "Noto Serif JP",serif; }
+  .sub { opacity:.78; font-size:.88rem; }
+  audio { width:100%; margin-top:20px; border-radius:12px; display:block; }
+  .bar { margin-top:14px; display:flex; gap:10px; flex-wrap:wrap; }
+  .bar a { color:#f3ebd2; background:rgba(243,235,210,.12);
+    border:1px solid rgba(243,235,210,.28); text-decoration:none;
+    padding:7px 15px; border-radius:999px; font-size:.82rem;
+    transition:background .15s; }
+  .bar a:hover { background:rgba(243,235,210,.24); }
+
+  main { padding:30px 0 60px; }
+
+  .overview { background:var(--card); border:1px solid var(--line);
+    border-left:4px solid var(--accent); border-radius:16px;
+    box-shadow:0 8px 28px -18px rgba(0,0,0,.25);
+    padding:20px 22px; margin-bottom:22px; }
+  .overview .section-heading { margin-bottom:10px; }
+  .overview p { margin:5px 0; font-size:.92rem; line-height:1.65; }
+  .overview p:first-of-type { font-weight:650; }
+
+  .collapsible { background:var(--card); border:1px solid var(--line);
+    border-radius:16px; box-shadow:0 8px 28px -18px rgba(0,0,0,.25); }
+  .papers { margin-bottom:34px; }
+  .models { margin-bottom:22px; }
+  .words { margin-bottom:34px; }
+  .collapsible > summary { cursor:pointer; list-style:none; padding:18px 22px;
+    position:relative; user-select:none; }
+  .collapsible > summary::-webkit-details-marker { display:none; }
+  .collapsible > summary:focus-visible { outline:3px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    outline-offset:3px; border-radius:12px; }
+  .section-title { font-size:1.02rem; letter-spacing:.02em;
+    display:flex; align-items:center; gap:8px; }
+  .section-title::before { content:""; width:9px; height:9px; border-radius:3px;
+    background:var(--accent); display:inline-block; }
+  .collapsible > summary::after { content:"＋"; position:absolute; right:22px; top:50%;
+    transform:translateY(-50%); color:var(--accent); font-size:1.25rem; line-height:1; }
+  .collapsible[open] > summary::after { content:"−"; }
+  .collapsible-body { padding:0 22px 18px; }
+  .papers .collapsible-body { padding:0 24px 16px; }
+  .mlist { list-style:none; margin:12px 0 0; padding:0; display:grid; gap:8px; }
+  .mlist li { display:grid; grid-template-columns:92px 1fr; gap:10px;
+    align-items:start; font-size:.82rem; border-top:1px solid var(--line);
+    padding-top:8px; }
+  .mlist li:first-child { border-top:0; padding-top:0; }
+  .mlist span { color:var(--sub); }
+  .mlist b { font-weight:650; overflow-wrap:anywhere; }
+  .phint { margin:2px 0 12px; font-size:.78rem; color:var(--sub); }
+  .plist { list-style:none; margin:0; padding:0; }
+  .plist li { display:flex; gap:13px; padding:12px 0;
+    border-top:1px solid var(--line); }
+  .pnum { flex:none; width:26px; height:26px; border-radius:8px;
+    background:color-mix(in srgb, var(--accent) 14%, transparent);
+    color:var(--accent); font-size:.8rem; font-weight:700;
+    display:flex; align-items:center; justify-content:center; margin-top:2px; }
+  .pbody { min-width:0; }
+  .ptitle { font-weight:650; font-size:.92rem; line-height:1.55;
+    color:var(--ink); text-decoration:none; }
+  a.ptitle:hover { color:var(--accent); text-decoration:underline; }
+  .pmeta { font-size:.76rem; color:var(--sub); margin-top:3px;
+    overflow-wrap:anywhere; }
+  .pmeta a { color:var(--accent); text-decoration:none; }
+  .pmeta a:hover { text-decoration:underline; }
+  .plicense { display:inline-block; margin-top:5px; font-size:.72rem;
+    font-weight:600; padding:1px 8px; border-radius:10px;
+    background:rgba(74,96,72,.12); color:var(--accent);
+    border:1px solid rgba(74,96,72,.28); }
+  .plicense a { color:inherit; text-decoration:none; }
+  .plicense a:hover { text-decoration:underline; }
+  .plicense.unknown { background:rgba(150,120,40,.12); color:#8a6d1f;
+    border-color:rgba(150,120,40,.30); }
+
+  .wlist { list-style:none; margin:0; padding:0; }
+  .wlist li { display:flex; gap:13px; padding:12px 0;
+    border-top:1px solid var(--line); }
+  .wnum { flex:none; width:26px; height:26px; border-radius:50%;
+    background:color-mix(in srgb, var(--accent) 14%, transparent);
+    color:var(--accent); font-size:.78rem; font-weight:700;
+    display:flex; align-items:center; justify-content:center; }
+  .wbody b { font-size:.94rem; }
+  .wbody p { margin:3px 0; font-size:.84rem; }
+  .wbody .example { color:var(--sub); font-style:italic; }
+  .section-heading { margin:0 0 22px; font-size:1.08rem; font-weight:650;
+    display:flex; align-items:center; gap:8px; }
+  .section-heading::before { content:""; width:9px; height:9px;
+    border-radius:3px; background:var(--accent); display:inline-block; }
+
+  .turn { margin:18px 0; max-width:88%; }
+  .turn.b { margin-left:auto; }
+  .who { display:block; font-size:.7rem; font-weight:700;
+    letter-spacing:.08em; color:var(--sub); margin:0 6px 4px; }
+  .turn.a .who { color:var(--accent); }
+  .turn.b { text-align:right; }
+  .turn.b .bubble { text-align:left; }
+  .bubble { display:inline-block; background:var(--card);
+    border:1px solid var(--line); padding:12px 17px;
+    border-radius:4px 18px 18px 18px;
+    box-shadow:0 3px 14px -10px rgba(0,0,0,.35); }
+  .turn.b .bubble { background:var(--bubble-b);
+    border-radius:18px 4px 18px 18px; }
+  .note { color:var(--sub); font-size:.88rem; }
+  .empty { color:var(--sub); text-align:center; padding:40px 0; }
+
+  footer { color:var(--sub); font-size:.78rem; text-align:center;
+    padding:26px 0 52px; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <span class="badge">Deep Read</span>
+  <h1>Weekly Nephrology AI</h1>
+  <div class="sub">2026-07-23 · Episode transcript · Educational use</div>
+  <audio controls preload="none" src="https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Nephrology_DeepRead_2026-07-23.mp3"></audio>
+  <div class="bar">
+    <a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/audio/Nephrology_DeepRead_2026-07-23.mp3">⬇ Download MP3</a>
+    <a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast/podcast.xml">Subscribe via RSS</a>
+    <a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast">All episodes</a>
+  </div>
+</div></header>
+<main><div class="wrap">
+<section class="overview" aria-labelledby="episode-overview-title"><h2 id="episode-overview-title" class="section-heading">Episode overview</h2><p>[Deep Read] Sparsentan vs irbesartan in pediatric FSGS (ages 8 to under 18).</p>
+<p>A post hoc exploratory subgroup of the phase 3 DUPLEX randomized active-controlled trial.</p>
+<p>We walk through the design, proteinuria and kidney endpoints, and why the small sample limits it.</p>
+<p>Educational evidence review in clear English; not medical advice.</p></section>
+<details class="collapsible models"><summary><span class="section-title">AI models and speakers</span></summary><div class="collapsible-body"><ul class="mlist">
+<li><span>AI model</span><b>Opus 4.8 (Claude)</b></li>
+<li><span>Agent team</span><b>Research Curator / Small Talk Scout / Episode Writer / Medical Reviewer</b></li>
+<li><span>Candidate papers</span><b>8 papers</b></li>
+<li><span>TTS model</span><b>Gemini 2.5 Flash TTS</b></li>
+<li><span>Speakers</span><b>Sophia — Trainee host, CEFR B1, female voice (Despina); Daniel — Expert co-host, CEFR B2, male voice (Iapetus)</b></li>
+</ul></div></details>
+<details class="collapsible papers"><summary><span class="section-title">Papers discussed</span></summary><div class="collapsible-body"><p class="phint">Select a title or DOI to open the original paper.</p><ol class="plist">
+<li><span class="pnum">1</span><div class="pbody"><a class="ptitle" href="https://doi.org/10.1016/j.ekir.2026.106566" target="_blank" rel="noopener">Sparsentan Versus Irbesartan in Pediatric Patients With FSGS</a><div class="pmeta"><span>Kidney Int Rep （2026 Jul, Vol 11 Issue 7）</span> · <a href="https://doi.org/10.1016/j.ekir.2026.106566" target="_blank" rel="noopener">DOI: 10.1016/j.ekir.2026.106566</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/42210914/" target="_blank" rel="noopener">PMID: 42210914</a></div><span class="plicense">License: <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></span></div></li>
+</ol></div></details>
+<details class="collapsible words"><summary><span class="section-title">Today&#x27;s words and phrases</span></summary><div class="collapsible-body"><ol class="wlist"><li><span class="wnum">1</span><div class="wbody"><b>post hoc</b><p>an analysis planned after the data were already collected</p><p class="example">Example: The pediatric result came from a post hoc look, so we read it with caution.</p></div></li>
+<li><span class="wnum">2</span><div class="wbody"><b>complete remission</b><p>when the protein in the urine drops to a very low level</p><p class="example">Example: Only two children reached complete remission during the trial.</p></div></li>
+<li><span class="wnum">3</span><div class="wbody"><b>washout period</b><p>the time patients stop their old drugs before a trial begins</p><p class="example">Example: The two-week washout period cleared the previous blocker from their system.</p></div></li>
+<li><span class="wnum">4</span><div class="wbody"><b>active control</b><p>a comparison group that gets a real working drug instead of a placebo</p><p class="example">Example: Because irbesartan was the active control, the trial measured a relative effect.</p></div></li>
+<li><span class="wnum">5</span><div class="wbody"><b>podocyte</b><p>a specialized filter cell in the kidney that gene changes can damage</p><p class="example">Example: Several children carried a variant that harms the podocyte directly.</p></div></li>
+<li><span class="wnum">6</span><div class="wbody"><b>kidney failure</b><p>when the kidneys no longer work well enough, so dialysis or a transplant is needed</p><p class="example">Example: Fewer sparsentan children progressed to kidney failure during the study.</p></div></li>
+<li><span class="wnum">7</span><div class="wbody"><b>rule out</b><p>to exclude something as a possibility</p><p class="example">Example: The wide interval means we cannot rule out no real difference.</p></div></li>
+<li><span class="wnum">8</span><div class="wbody"><b>line up with</b><p>to match or agree with something</p><p class="example">Example: The child results line up with what was seen in adults.</p></div></li>
+<li><span class="wnum">9</span><div class="wbody"><b>by chance</b><p>happening randomly, not from a true effect</p><p class="example">Example: With so few patients, part of the gap could be by chance.</p></div></li>
+<li><span class="wnum">10</span><div class="wbody"><b>raise the question</b><p>to make people ask about something</p><p class="example">Example: The baseline imbalance raises the question of what really drove the results.</p></div></li></ol></div></details>
+
+<section class="script"><h2 class="section-heading">Script</h2><div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Welcome to Weekly Nephrology AI. This episode is published on July 23, 2026.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">This podcast is generated by AI and may contain errors. Before using this information in clinical practice or research, please review the full text of the original paper.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">This is an educational podcast about recent nephrology research, with clear English and careful evidence review.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">I&#x27;m Sophia, your trainee host. I&#x27;ll guide us through the paper, explain each section in clear English, and pause for short summaries.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">And I&#x27;m Daniel, your expert co-host. I&#x27;ll add detail on the methods, statistics, and how strongly we can trust the results.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Today&#x27;s series is Deep Read. We examine one open-access paper in depth using its verified full text.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">A quick word on how we chose today&#x27;s paper.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Our scheduled journal was AJKD, but it didn&#x27;t give us enough eligible articles this week.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So we used Kidney International Reports as the source journal instead.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">We screened Original Articles that had verified, open-access full text we could read in full.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That gave us eight candidates, and we picked one for a deeper look.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">It&#x27;s a trial-based analysis of a newer drug for a serious childhood kidney disease.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That mix of a real trial and a hard clinical problem made it worth our time.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">First, let&#x27;s have a short Small Talk related to today&#x27;s episode.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Let&#x27;s start with the disease itself, since it drives everything else today.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">FSGS is a kidney disease where the tiny filters in the kidney get scarred.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">When those filters leak, protein spills from the blood into the urine.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That leaking is called proteinuria, and in this disease it can be very heavy.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Heavy protein loss matters because it tracks with faster loss of kidney function over time.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So doctors watch the protein level closely as a sign of how the kidney is doing.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Today&#x27;s paper looks only at children, pulled out of a larger adult-and-child trial.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That kind of &quot;pull out one group afterward&quot; study is called a post hoc subgroup.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Right, and that word &quot;post hoc&quot; will shape how carefully we read the numbers.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Now, let&#x27;s get started.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">The clinical problem here is real and heavy for young patients.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Children with FSGS often do worse than adults, even with current treatment.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">One cited study found 37% progress to kidney failure or death within ten years of diagnosis.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So this means a large share of these children lose their kidneys while still young.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">And we have very little trial evidence to guide drug choice in this age group.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That&#x27;s the gap the authors are trying to fill here.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">The drug is sparsentan, a non-immunosuppressive dual endothelin and angiotensin receptor blocker.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">In plain terms, it blocks two signals that push the kidney filter toward damage.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">And it does that without suppressing the immune system, unlike some older FSGS drugs.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">The comparison drug is irbesartan, a standard blood-pressure medicine that also lowers protein.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Both came from the phase 3 DUPLEX trial, a proper randomized, double-blind study.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">But remember, today we only see the children who were inside that bigger trial.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Exactly. This pediatric slice was not the main question DUPLEX was built to answer.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">The key point here is that this is a small look inside a larger trial.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So we should read it as a clue, not as proof. Let&#x27;s turn to the methods.</div></div>
+<p class="note">&lt;!-- AUDIO_PAUSE --&gt;</p>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Let&#x27;s walk through how the study was actually run.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">DUPLEX enrolled patients aged 8 to 75 years with FSGS confirmed by biopsy or genetics.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">And known secondary causes of FSGS were excluded, so this is the primary form.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Patients needed heavy protein, a UPCR of at least 1.5, and reasonable kidney function.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">UPCR is the urine protein-to-creatinine ratio, a simple way to measure protein loss.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">They were randomized one-to-one to sparsentan or irbesartan for 108 weeks.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Before that, there was a two-week washout period off their old blocker drugs.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Today&#x27;s analysis takes just the participants aged 8 to under 18 from that trial.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">This means the children were randomized inside DUPLEX, but pulled out only afterward.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">That&#x27;s the crucial point. The randomization is real, but this subgroup was chosen later.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Let me summarize the population. We have 35 children, 16 on sparsentan and 19 on irbesartan.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Median age was about 14 in both arms, and baseline protein was high in both.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Median UPCR was 4.7 in the sparsentan arm and 5.2 in the irbesartan arm.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">But the arms were not perfectly matched, and one imbalance really stands out.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Tell us which one, because this will come back later.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Before entering, 88% of sparsentan children had used an ACE inhibitor or ARB, versus 47%.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So the sparsentan group had far more prior blocker treatment. That&#x27;s a big gap.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">There were smaller gaps too: more genetic podocyte variants and lower baseline kidney function in that arm.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">A podocyte is one of those filter cells, and certain gene changes damage it directly.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">On dosing, the targets were sparsentan 800 milligrams a day and irbesartan 300.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">And lighter children, at or under 50 kilograms, got half doses.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">About 94% on sparsentan and 95% on irbesartan reached their target dose.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So compliance with the intended dose was high in both arms. Good.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">The median weight-based dose was 8.8 milligrams per kilogram for sparsentan.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So dosing was scaled to body size, which really matters in growing children.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Follow-up was strong too. Every sparsentan child completed the full 112-week study period.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So very few children dropped out, which strengthens what little data we have.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Now the outcomes, which are almost all about protein levels.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Complete remission meant the UPCR fell below 0.3, which is close to normal.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">There was also an FSGS partial remission end point: UPCR at or below 1.5 and down over 40%.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">And they counted how many children ever dropped below 0.5, 0.7, or 1.0.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">They also tracked kidney failure and a composite kidney end point through 112 weeks.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Kidney failure here meant a sustained low filtration rate or needing dialysis or transplant.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">For statistics, they used a repeated-measures model for protein and relative risks for the thresholds.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Here&#x27;s the part that really matters for how we read this.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Because the sample was so small and the analysis exploratory, between-arm significance could not be assessed.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So the authors report no p-values comparing the two drugs in these children.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Correct. And they deliberately did not report kidney-function slope for this subgroup.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">My methods takeaway is simple. This is a real randomized trial, read as a small exploratory subgroup.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">We can look at differences, but we cannot call any of them statistically proven. Let&#x27;s see the results.</div></div>
+<p class="note">&lt;!-- AUDIO_PAUSE --&gt;</p>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Let&#x27;s start with the protein reductions, since that&#x27;s the heart of the paper.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Protein fell quickly. By week 6, sparsentan showed a 47.5% reduction from baseline.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">And the irbesartan group at week 6?</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">A 28.5% reduction. So both dropped fast, but sparsentan dropped more.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">This means the effect starts early, within about six weeks, in both arms.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">By 108 weeks, the reductions were 39.5% for sparsentan and 24.9% for irbesartan.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So the gap held up over roughly two years of treatment.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">But I have to flag the confidence intervals here, because they are very wide.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Wide intervals mean the true effect could sit across a large range. Right?</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Exactly. The ratio between arms crossed 1, so we can&#x27;t rule out no real difference.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Let me put that plainly. Sparsentan looked better on paper, but the numbers are uncertain.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Now the remission thresholds, where more sparsentan children reached low protein levels.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Complete remission was 12.5% with sparsentan versus 5.3% with irbesartan.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">That&#x27;s two of 16 children versus one of 19. Very small counts on both sides.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So even though the percentage doubled, we&#x27;re talking about single patients here.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">The FSGS partial remission end point was 56.3% versus 36.8%.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So more than half the sparsentan children hit that milder target.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">And at the under 1.0 threshold, it was 43.8% versus 21.1%.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So the gap looked widest there, though still built on small numbers.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">The under 0.7 and under 0.5 thresholds pointed the same way.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">What matters here is that every one of those comparisons still crossed 1.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Right. Each relative risk had a confidence interval including no difference, and no p-value.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So the results line up with each other, but none of them is statistically firm.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">There was also a signal on the hardest outcome, kidney failure.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Tell us that one carefully, because it&#x27;s the outcome families care about most.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Kidney failure occurred in 12.5% on sparsentan versus 36.8% on irbesartan.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So two children versus seven progressed to failing kidneys.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">And the composite kidney end point was 31.3% versus 47.4%.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That looks like a real difference, but I suspect the interval is wide again.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">It is. Both intervals crossed 1, so this is a hint, not a proven benefit.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Let me summarize the efficacy. Sparsentan consistently looked better across protein and kidney outcomes.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">But the sample was tiny, and no comparison reached statistical certainty.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">On the supporting findings, fewer sparsentan children needed extra immune-suppressing drugs during the trial.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">How much fewer?</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">About 6% versus 26% needed new or intensified immunosuppression.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That&#x27;s interesting, because the sparsentan arm actually started with more of that therapy.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Blood pressure changes were broadly similar, though they could only assess children still under 18.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">And safety overall?</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Broadly similar. Side effects hit 94% on sparsentan and 100% on irbesartan.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So almost everyone had some adverse event, which is common in trials this intensive.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Serious events were 50% versus 63%, and there were no deaths in either arm.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">This means the safety picture didn&#x27;t raise a clear red flag for sparsentan.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">One detail stands out: no acute kidney injury events on sparsentan versus four on irbesartan.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">And blood potassium and liver tests?</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Hyperkalemia was 13% versus 11%, and there were no abnormal liver tests in either arm.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">To sum up the results: sparsentan looked favorable on protein, kidney failure, and safety.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">But hold that thought, because the limitations shape how far we can take it.</div></div>
+<p class="note">&lt;!-- AUDIO_PAUSE --&gt;</p>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Let&#x27;s turn to the limitations, and there are several important ones.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">The biggest is design. This is a post hoc, exploratory subgroup, not a pre-planned comparison.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So the study was never built to test sparsentan specifically in children.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">And with only 35 children, it is badly underpowered to detect a true difference.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">This means even a real benefit might not show up as a firm result.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">And with counts this small, some of the difference could be by chance.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Right, random noise can look like a real effect when the groups are tiny.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">That&#x27;s why the authors themselves say between-arm significance could not be assessed.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Now the baseline imbalance we flagged earlier. Bring it back.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">The sparsentan arm had far more prior ACE inhibitor or ARB use, 88% versus 47%.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So the two groups didn&#x27;t start from the same place, and that can bias the protein results.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">The authors even say this imbalance may have contributed to the reductions they saw.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That&#x27;s an honest and important admission from them.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">There&#x27;s more. The comparator was an active control, not a placebo.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So this tells us how sparsentan compares to a real drug, not to nothing.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">And the sparsentan arm had more genetic FSGS and more baseline immunosuppression too.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">All of these differences raise the question of whether the drug alone explains the gap.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">My added appraisal: the wide confidence intervals are the honest headline here.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">In simple terms, small numbers make every estimate shaky, even when the direction is consistent.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">I&#x27;d also note the sponsor funded the trial, and some authors work for the sponsor.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That doesn&#x27;t erase the data, but it&#x27;s context every reader should keep in mind.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Notably, 38% of the sparsentan children had a genetic podocyte cause of FSGS.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">And those patients often resist other treatments, so any response there is worth noting.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">But only two such children were on irbesartan, so we can&#x27;t compare that group.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So this means the genetic angle is intriguing but far from settled.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">The authors also flag that Black children were underrepresented in the trial.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">So we should be careful before applying these results across all populations.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">So what can this paper actually establish, and what can&#x27;t it?</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">It can show that sparsentan&#x27;s effect in children lines up with the adult results.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">And it can generate a strong hypothesis worth testing in a dedicated pediatric study.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">But it cannot prove sparsentan is superior, and it cannot change practice by itself.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Nor can we call the lower kidney-failure rate a proven protective benefit.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">The practical meaning is modest but useful. This is encouraging early evidence, not a verdict.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Well put. For a rare childhood disease with little trial data, even a clue has value.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">And we should not push these findings beyond primary FSGS or beyond children.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Now it is time for today&#x27;s words and phrases.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Let&#x27;s start with &quot;post hoc.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Post hoc means an analysis planned after the data were already collected.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">For example, &quot;The pediatric result came from a post hoc look, so we read it with caution.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Next is &quot;complete remission.&quot;</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Complete remission means the protein in the urine drops to a very low level.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">For example, &quot;Only two children reached complete remission during the trial.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Third is &quot;washout period.&quot;</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">A washout period is the time patients stop their old drugs before a trial begins.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">For example, &quot;The two-week washout period cleared the previous blocker from their system.&quot;</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Fourth is &quot;active control.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">An active control is a comparison group that gets a real, working drug instead of a placebo.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">For example, &quot;Because irbesartan was the active control, the trial measured a relative effect.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Fifth is &quot;podocyte.&quot;</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">A podocyte is a specialized filter cell in the kidney, and gene changes can damage it.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">For example, &quot;Several children carried a variant that harms the podocyte directly.&quot;</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Sixth is &quot;kidney failure.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Kidney failure means the kidneys no longer work well enough, so dialysis or a transplant is needed.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">For example, &quot;Fewer sparsentan children progressed to kidney failure during the study.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Seventh is a useful phrase, &quot;rule out.&quot;</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">To rule out something means to exclude it as a possibility.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">For example, &quot;The wide interval means we cannot rule out no real difference.&quot;</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Eighth is &quot;line up with.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">To line up with something means to match or agree with it.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">For example, &quot;The child results line up with what was seen in adults.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Ninth is &quot;by chance.&quot;</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">By chance means something happened randomly, not from a true effect.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">For example, &quot;With so few patients, part of the gap could be by chance.&quot;</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Last is &quot;raise the question.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">To raise the question means to make people ask about something.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">For example, &quot;The baseline imbalance raises the question of what really drove the results.&quot;</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">That is all for today&#x27;s words and phrases.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Here are two take-home messages before we close.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">First, in this small pediatric subgroup, sparsentan looked better than irbesartan on protein and kidney failure.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Second, the numbers are exploratory and uncertain, so this is a promising clue, not proof.</div></div>
+<div class="turn b"><span class="who">Daniel · Co-host</span><div class="bubble">Well said. A dedicated pediatric trial would be the right next step.</div></div>
+<div class="turn a"><span class="who">Sophia · Host</span><div class="bubble">Thank you for listening to Weekly Nephrology AI. We&#x27;ll see you next time.</div></div></section>
+</div></main>
+<footer><div class="wrap">
+  AI-generated educational content. Verify the original papers before clinical or research use.<br/>
+  © 2026 Weekly Nephrology AI. All rights reserved.<br/>
+  This podcast, including its scripts, audio, and original presentation, is copyrighted by Weekly Nephrology AI.<br/>
+  <a href="https://weekly-nephrology.github.io/weekly-nephrology-podcast">Weekly Nephrology</a>
+</div></footer>
+</body>
+</html>
